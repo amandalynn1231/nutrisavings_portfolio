@@ -1,0 +1,2441 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>NutriSavings Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link rel="stylesheet" href="css/lightbox.css" />
+
+		<script src="js/jquery-1.12.1.min.js"></script>
+		<script src="js/jquery.mixitup.js"></script>
+		<script src="js/modernizr.custom.70736.js"></script>
+		<script src="js/jquery.jscroll.min.js"></script>
+		<script src="js/scrollreveal.min.js"></script>
+
+		<!-- <script src="js/lightbox-helper.js"></script> -->		
+	</head>
+
+	<body>
+
+
+		<!-- LOGO -->
+		<div class="logo-box" data-filter=".all">
+			<img class="logo" src="images/NutriSavings_motif.png">
+			<h1>NUTRISAVINGS creative services</h1>
+		</div>
+
+		<!-- MOBILE MENU -->
+
+
+			<!-- MOBILE MENU ICON -->
+
+		<div class="hamburger">
+			<img src="images/mobile_menu.svg" class="menu-icon" />
+		</div>
+
+			<!-- Mobile MENU NAV -->
+
+		<div class="controls" id="Filters">
+
+			<fieldset class="mobile-nav" id="mobile-nav">
+				<div class="background"></div>
+				<div class="close-icon">
+					<img src="images/close-white.svg" />
+				</div>
+
+				<!-- MOBILE PRINT -->                                                     
+				<div class="mobile-nav-item filter" id="print-mobile-nav-item" data-filter=".print">
+					<div class="mobile-nav-container">
+						<h3 class="nav-title">Print</h3>
+					</div>
+
+					<!-- MOBILE DROPDOWN NAV "PRINT" -->
+
+					 <div class="print mobile-dropdown" id="print-mobile-dropdown">
+					 	<fieldset class="mobile-drop-container">
+						 	<div class="subfilter mobile-drop-item filter" data-filter=".case-studies">Case Studies</div>
+						 	<div class="subfilter mobile-drop-item filter" data-filter=".datasheet">Data Sheets</div>
+						 	<div class="subfilter mobile-drop-item filter" data-filter=".sales">Sales Sheets</div>
+						 	<div class="subfilter mobile-drop-item filter" data-filter=".collateral">Print Collateral</div>
+					 	</fieldset>
+					 </div>
+
+				<!-- MOBILE EMAIL -->
+					<div class="mobile-nav-item filter" id="email-mobile-nav-item" data-filter=".emails">
+						<div class="nav-container">
+							<h3 class="nav-title">Emails</h3>
+						</div>
+
+						<!-- MOBILE DROPDOWN NAV "EMAIL"-->
+
+						 <div class="emails mobile-dropdown" id="email-mobile-dropdown">
+						 	<fieldset class="mobile-drop-container">
+							 	<div class="subfilter mobile-drop-item filter" data-filter=".leadgen">Marketing Lead Gen</div>
+							 	<div class="subfilter mobile-drop-item filter" data-filter=".participant">Participant</div>
+							 	<div class="subfilter mobile-drop-item filter" data-filter=".newsletter">Newsletter</div>
+							 	<div class="subfilter mobile-drop-item filter" data-filter=".landing-pages">Landing Pages</div>
+						 	</fieldset>
+						 </div>
+
+				<!-- MOBILE INFOGRAPHICS -->
+						<div class="mobile-nav-item filter end" data-filter=".infographics">
+								<h3>Infographics</h3>
+								
+				<!-- MOBILE MOBILE APP -->
+							<div class="mobile-nav-item filter end" data-filter=".mobile">
+								<h3>Mobile App</h3>
+							
+				<!-- MOBILE PRODUCT -->
+								<div class="mobile-nav-item filter end" data-filter=".product">
+									<h3>Product</h3>
+								
+				<!-- MOBILE TRADE SHOW -->
+									<div class="mobile-nav-item filter end" data-filter=".product">
+										<h3>Trade Show</h3>
+
+				<!-- MOBILE MISC -->
+										<div class="mobile-nav-item filter" id="misc-mobile-nav-item" data-filter=".misc">
+											<div class="nav-container">
+												<h3 class="nav-title">Miscellaneous</h3>
+											</div>
+
+				<!-- MOBILE MISC DROPDOWN NAV -->
+
+											 <div class="misc mobile-dropdown" id="misc-mobile-dropdown">
+											 	<fieldset class="mobile-drop-container">
+												 	<div class="subfilter mobile-drop-item filter" data-filter=".campaigns">Campaigns</div>
+												 	<div class="subfilter mobile-drop-item filter" data-filter=".banner-ads">Banner Ads</div>
+												 	<div class="subfilter mobile-drop-item filter end" data-filter=".graphics">Graphics</div>
+											 	</fieldset>
+											 </div>
+
+				<!-- MOBILE VIEW ALL -->
+											<div class="mobile-nav-item filter end" data-filter=".all">
+												<h3>View All</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</fieldset>
+
+		<!-- NAV -->
+
+			<fieldset class="time-nav">
+				<div class="time-nav-item filter" data-filter=".2014">
+					2014
+				</div>
+				<div class="time-nav-item filter" data-filter=".2015">
+					2015
+				</div>
+				<div class="time-nav-item filter" data-filter=".2016">
+					2016
+				</div>
+				<div class="time-nav-item filter" data-filter=".all">
+					View All
+				</div>
+			</fieldset>
+
+			<fieldset class="nav">
+			                                                        
+				
+				<!-- EMAILS -->
+				<div class="nav-item filter" id="email-nav-item" data-filter=".emails">
+					<div class="nav-container">
+						<h3 class="nav-title">Emails</h3>
+					</div>
+				</div>
+
+					<!-- EMAIL DROPDOWN NAV -->
+
+				 <div class="emails dropdown" id="email-dropdown">
+				 	<fieldset class="drop-container">
+					 	<div class="subfilter drop-item filter" data-filter=".leadgen">Marketing Lead Gen</div>
+					 	<div class="subfilter drop-item filter" data-filter=".participant">Participant</div>
+					 	<div class="subfilter drop-item filter" data-filter=".newsletter">Newsletter</div>
+					 	<div class="subfilter drop-item filter" data-filter=".landing-pages">Landing Pages</div>
+				 	</fieldset>
+				 </div>
+
+
+				<!-- INFOGRAPHIC -->
+				<div class="nav-item filter" data-filter=".infographics">
+						<h3>Infographics</h3>
+				</div>
+
+				<!-- MOBILE APP -->
+				<div class="nav-item filter" data-filter=".mobile">
+					<h3>Mobile App</h3>
+				</div>
+
+				<!-- PRODUCT -->
+				<div class="nav-item filter" data-filter=".product">
+					<h3>Product</h3>
+				</div>
+
+
+				<!-- PRINT -->
+
+				<div class="nav-item filter" id="print-nav-item" data-filter=".print">
+					<div class="nav-container">
+						<h3 class="nav-title">Print</h3>
+					</div>
+				</div>
+
+
+					<!-- PRINT DROPDOWN NAV -->
+
+				 <div class="print dropdown" id="print-dropdown">
+				 	<fieldset class="drop-container">
+					 	<div class="subfilter drop-item filter" data-filter=".case-studies">Case Studies</div>
+					 	<div class="subfilter drop-item filter" data-filter=".datasheet">Data Sheets</div>
+					 	<div class="subfilter drop-item filter" data-filter=".sales">Sales Sheets</div>
+					 	<div class="subfilter drop-item filter" data-filter=".collateral">Print Collateral</div>
+				 	</fieldset>
+				 </div>
+
+				 <!-- TRADE SHOWS -->
+				<div class="nav-item filter" data-filter=".trade-shows">
+					<h3>Trade Shows</h3>
+				</div>
+
+				 <!-- MISCELLANEOUS -->
+
+				 <div class="nav-item filter" id="misc-nav-item" data-filter=".misc">
+					<div class="nav-container">
+						<h3 class="nav-title">Miscellaneous</h3>
+					</div>
+				</div>
+
+
+					<!-- MISC DROPDOWN NAV -->
+
+				 <div class="misc dropdown" id="misc-dropdown">
+				 	<fieldset class="drop-container">
+					 	<div class="subfilter drop-item filter" data-filter=".campaigns">Campaigns</div>
+					 	<div class="subfilter drop-item filter" data-filter=".banner-ads">Banner Ads</div>
+					 	<div class="subfilter drop-item filter" data-filter=".graphics">Graphics</div>
+				 	</fieldset>
+				 </div>
+
+				<div class="nav-item filter" data-filter=".all">
+					<h3>View All</h3>
+				</div>
+				<!-- <div class="nav-item filter">
+					<h3>Request Forms</h3>
+				</div> -->
+			</fieldset> 
+		</div>
+		
+		<!-- <a href="request.html"> -->
+		<div id="request" class="request">Request Forms</div>
+		<!-- </a> -->
+
+
+		<!-- PORTFOLIO ITEMS -->
+
+		<!-- When adding a new portfolio item, copy and paste an existing porfolio item within the "a" tags. Make sure to change the classes in the "li" tags to match the filter categories for that particular item -->
+
+		<input type="text" class="search-box" id="input" placeholder="SEARCH"></input>
+
+		<!-- <iframe src="request.html" id="request-forms"></iframe> -->
+
+		<div id="request-forms"></div>
+
+		<ul class="grid" id="portfolio">	
+
+			<p id="no-results" class="hide">No Results</p>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411544/save-money_hqqy4i.png" class="port-item" data-lightbox="img" data-title="<h3>Eligibles Email Campaign</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411516/save-money-thumb_t8mbf2.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Eligibles Email Campaign</h2>
+						<h4 class="subclass">participant email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232391/S1-E1_EligiblesCampaign_o4iezo.jpg" class="port-item" data-lightbox="img" data-title="<h3>Eligibles Email Campaign</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232391/S1-E3_EligiblesCampaign_ri9jbv.jpg" class="port-item" data-lightbox="img" data-title="<h3>Eligibles Email Campaign</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<!-- <a href="images/emails/lead-gen/thank-you.png" class="port-item" data-lightbox="img" data-title="<h3>Thank You</h3><h4>Lead Gen Email</h4><div class='line'></div><p>description...</p>">
+				<li class="portfolio-item mix all 2015 emails leadgen">
+					<img src="images/emails/lead-gen/thank-you-thumb.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Thank You</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p>
+					</div>
+				</li>
+			</a> -->
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418715/QSG_Nutrition-min_dzx5mr.jpg" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Worksite Nutrition</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all print collateral 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463418717/QSG_Nutrition-thumb-min_tubquc.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Worksite Nutrition</h2>
+						<h4 class="subclass">Quick Start Guide</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418719/QSG_Nutrition2-min_zjpdhb.jpg" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Worksite Nutrition</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418720/QSG_Nutrition3-min_ycevaj.jpg" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Worksite Nutrition</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418722/QSG_Nutrition4-min_j23sut.jpg" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Worksite Nutrition</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168379/april2016_vuqcyi.png" class="port-item" data-lightbox="img" data-title="<h3>Your Body On Stress</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168387/april2016-thumb_jjbfnv.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Your Body On Stress</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232363/employee-wellness_fvqfun.png" class="port-item" data-lightbox="img" data-title="<h3>Employee Wellness Campaign</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2016 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232362/employee-wellness-thumb_e9v1fy.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Employee Wellness Campaign</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+			
+			<!-- <a href="images/emails/retailers/all-retailers.png" class="port-item" data-lightbox="img" data-title="<h3>All Retailers</h3><h4>Retailer Email</h4><div class='line'></div><p>description...</p> 
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="images/emails/retailers/all-retailers-thumb.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">All Retailers</h2>
+						<h4 class="subclass">retail email</h4>
+						<div class="line"></div>
+						<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p>
+					</div>
+				</li>
+			</a> -->
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411525/ShopHealthy-FullSize-min_opjiy8.png" class="port-item" data-lightbox="img" data-title="<h3>Shop Healthy</h3><h4>case study</h4><div class='line'></div><p>Fruits</p>">
+				<li class="portfolio-item mix all print case-studies">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411450/ShopHealthy-thumb-min_f74kkg.png" class="image">
+			
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Shop Healthy</h2>
+						<h4 class="subclass">case study</h4>
+						<div class="line"></div>
+						<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232423/april-skin-web_yxih3y.png" class="port-item" data-lightbox="img" data-title="<h3>Farmer's Market Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232423/april-skin-thumb_a1jiwk.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Farmer's Market Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232365/new-fit_nuxvzp.png" class="port-item" data-lightbox="img" data-title="<h3>New Fit Campaign</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2016 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232363/new-fit-thumb_gepobx.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">New Fit Campaign</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168368/5_ways_obrhnk.jpg" class="port-item" data-lightbox="img" data-title="<h3>National Nutrition Month</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168368/5_ways-thumb_ng3yxj.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">National Nutrition </br> Month</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411470/Chronic-Obesity-pg1_yqlaiw.jpg" class="port-item" data-lightbox="img" data-title="<h3>Chronic Obesity</h3><h4>data sheet</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all print datasheet 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411509/Chronic-Obesity-thumbnail_husv7v.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Chronic Obesity</h2>
+						<h4 class="subclass">data sheet</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411477/Chronic-Obesity-pg2_ayrvsd.jpg" class="port-item" data-lightbox="img" data-title="<h3>Chronic Obesity</h3><h4>data sheet</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/c_crop,h_1200,w_788/v1463405419/areyouatrisk_dhyux2.jpg" class="port-item" data-lightbox="img" data-title="<h3>Are you at risk?</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168397/areyouatrisk-thumb_up7oe2.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">are you at risk?</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232367/planting-seeds_lqiiu0.png" class="port-item" data-lightbox="img" data-title="<h3>Plant the Seeds of Nutrition</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2016 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232364/planting-seeds-thumb_zsstli.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Plant the Seeds <br> of Nutrition</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232445/March-stress-web_kdnt5h.jpg" class="port-item" data-lightbox="img" data-title="<h3>Stress Awareness Month</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232440/march-stree-thumb_jhxwjh.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Stress Awareness Month</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414344/welcoa-final-r01_r6mfua.png" class="port-item" data-lightbox="welcoa" data-title="<h3>WELCOA</h3><h4>Trade Show</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all trade-shows 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414353/welcoa-thumb_ife1x3.png" class="image">
+					<div class="text-box">
+					<div class="border"></div>
+						<h2 class="title">WELCOA</h2>
+						<h4 class="subclass">Trade Show</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414361/welcoa-final-r012_ozvopg.png" class="port-item" data-lightbox="welcoa" data-title="<h3>WELCOA</h3><h4>Trade Show</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414365/welcoa-final-r013_ynbp6e.png" class="port-item" data-lightbox="welcoa" data-title="<h3>WELCOA</h3><h4>Trade Show</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885285/WorkplaceExerciseGuide_c8olvr.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all print collateral 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1459885285/WorkplaceExerciseGuide-thumb_afojfp.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Workplace Exercise</h2>
+						<h4 class="subclass">Quick Start Guide</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885284/WorkplaceExerciseGuide2_x68eof.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885281/WorkplaceExerciseGuide3_ranrro.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885285/WorkplaceExerciseGuide4_atgrlw.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885288/WorkplaceExerciseGuide5_bxorij.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885287/WorkplaceExerciseGuide6_hhou9o.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885288/WorkplaceExerciseGuide7_wb1r3m.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885288/WorkplaceExerciseGuide8_htju2j.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885288/WorkplaceExerciseGuide9_vh44vy.jpg" class="port-item" data-lightbox="exercise-guide" data-title="<h3>Workplace Exercise</h3><h4>Quick Start Guide</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414111/healthier-workforce_egy9vx.png" class="port-item" data-lightbox="img" data-title="<h3>Healthier Workforce?</h3><h4>Employer Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414111/healthier-workforce-thumb_popdqm.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Healthier Workforce?</h2>
+						<h4 class="subclass">employer email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232428/AICR-skin_guabv0.jpg" class="port-item" data-lightbox="img" data-title="<h3>American Institute for Cancer Research Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232422/AICR-Skin-thumb_y6jd5n.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">American Institute</br> for Cancer Research Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+			
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411358/mobile-app-fullsize-min_ucvzn4.jpg" class="port-item" data-lightbox="mob-app-cs" data-title="<h3>Mobile App</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all print case-studies mobile">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411386/mobile-app-thumb_kj7oom.jpg" class="image">
+					<div class="text-box">
+					<div class="border"></div>
+						<h2 class="title">Mobile App</h2>
+						<h4 class="subclass">Case Study</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411362/mobile-app-fullsize2-min_kmogbj.jpg" class="port-item" data-lightbox="mob-app-cs" data-title="<h3>Mobile App</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168489/prostate-health-thumb-min_vy1xqz.jpg" class="port-item" data-lightbox="mob-app-cs" data-title="<h3>Mobile App</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168486/prostate-health-min_zqc3lz.png" class="port-item" data-lightbox="img" data-title="<h3>Prostate Health</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168489/prostate-health-thumb-min_vy1xqz.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Prostate Health</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232377/feb2016_i6yyww.png" class="port-item" data-lightbox="img" data-title="<h3>February 2016</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232376/feb2016-thumb_cgl2a8.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">February 2016</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232361/chronic-illness2_u3os6w.png" class="port-item" data-lightbox="img" data-title="<h3>Chronic Illness Campaign 2</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2016 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232357/chronic-illness2-thumb_fy7vb2.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Chronic Illness Campaign 2</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414361/tradeshow-banners-R4_jpalux.png" class="port-item" data-lightbox="img" data-title="<h3>Trade Show Banners</h3><h4>Trade Show</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all trade-shows 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414333/tradeshow-banners-thumb2_rsobe8.png" class="image">
+					<div class="text-box">
+					<div class="border"></div>
+						<h2 class="title">Trade Show Banners</h2>
+						<h4 class="subclass">Trade Show</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414209/nsSalessheet_fwdkjv.jpg" class="port-item" data-lightbox="img" data-title="<h3>NutriSavings Sales</h3><h4>sales sheet</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all print sales 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414210/ns-ss-thumb_o6ugxu.jpg" class="image">
+					<div class="text-box">						<div class="border"></div>
+						<h2 class="title">NutriSavings Sales</h2>
+						<h4 class="subclass">sales sheet</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414212/nsSalessheet2_twbgf9.jpg" class="port-item" data-lightbox="img" data-title="<h3>NutriSavings Sales</h3><h4>sales sheet</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+		<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414168/Dashboard_e0lchu.png" class="port-item" data-lightbox="img" data-title="<h3>Mobile App Dashboard</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all mobile 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414168/dashboard-mockup_gzfaej.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Mobile App Dashboard</h2>
+						<h4 class="subclass">mobile app</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232436/HeartMonth-web_waur5s.png" class="port-item" data-lightbox="img" data-title="<h3>Heart Month Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232435/HeartMonthSkin2-thumb_prziyk.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Heart Month Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414188/FoodCatalog_v2_vzryta.jpg" class="port-item" data-lightbox="img" data-title="<h3>Food Catalog</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all mobile 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414168/food-catalog_vofnil.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Food Catalog</h2>
+						<h4 class="subclass">mobile app</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414169/filter-by-store_s3_xiizrd.jpg" class="port-item" data-lightbox="img" data-title="<h3>Filter Offers By Store</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all mobile 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414174/offers-filter-store_mrpqmc.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Filter Offers By Store</h2>
+						<h4 class="subclass">mobile app</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232360/chronic-illness-campaign1_cabzv6.png" class="port-item" data-lightbox="illness-campaign1" data-title="<h3>Chronic Illness Campaign 1</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2016 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232361/chronic-illness-campaign1-thumb_ykigwh.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Chronic Illness Campaign 1</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232369/chronic-illness-campaign2_kohunr.png" class="port-item" data-lightbox="illness-campaign1" data-title="<h3>Chronic Illness Campaign 1</h3><h4>Lead Gen Email</h4><div class='line'></div><p>part 2...</p>"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168492/back-to-school-min_bmx5zm.png" class="port-item" data-lightbox="img" data-title="<h3>Back To School Nutrition</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168459/back-to-school-thumb-min_nt3p1p.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Back To School <br> Nutrition</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414199/Product_Detail_Overview_c2qlrq.png" class="port-item" data-lightbox="offer-details" data-title="<h3>Product Details</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all mobile 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414175/offers-product-details_zjetnx.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Product Details</h2>
+						<h4 class="subclass">mobile app</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414182/Product_Detail_Nutrition_gb4qws.png" class="port-item" data-lightbox="offer-details" data-title="<h3>Product Details</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414198/Product_Detail_QuickFacts_y1oj6d.png" class="port-item" data-lightbox="offer-details" data-title="<h3>Product Details</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414222/Walk_Through_s1_aw7evo.jpg" class="port-item" data-lightbox="offer-details" data-title="<h3>Offers Walkthrough</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all mobile 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414173/offers-walkthrough_kt2fom.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Offers Walkthrough</h2>
+						<h4 class="subclass">mobile app</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414222/Walk_Through_s2_swwf6n.jpg" class="port-item" data-lightbox="offer-details" data-title="<h3>Offers Walkthrough</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414221/Walk_Through_s3_xxt1r3.jpg" class="port-item" data-lightbox="offer-details" data-title="<h3>Offers Walkthrough</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414196/Offers_Details_1b_fjsuqn.jpg" class="port-item" data-lightbox="offer-details" data-title="<h3>Offer Details</h3><h4>mobile app</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all mobile 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/c_scale,w_188/v1463415520/offer-details-thumb_z9fglm.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Offer Details</h2>
+						<h4 class="subclass">mobile app</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232442/kidney-web_vejybu.jpg" class="port-item" data-lightbox="img" data-title="<h3>National Kidney Month Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232438/kidney-skin-thumb_dg6gsy.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">National Kidney Month Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232453/sunsweet-web_vb6etg.jpg" class="port-item" data-lightbox="img" data-title="<h3>Sunsweet Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232452/sunsweet-thumb_tp7iqp.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Sunsweet Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232381/jan2016_pm2m0s.png" class="port-item" data-lightbox="img" data-title="<h3>January 2016</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232378/jan2016-thumb_lgcvxe.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">January 2016</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232360/consumer-wkflow-pass-reset_vk6c5n.png" class="port-item" data-lightbox="consumer-wkflow" data-title="<h3>Password Reset Email</h3><h4>Lead Gen Email</h4><div class='line'></div><p>part of the consumer workflow emails...</p>">
+				<li class="portfolio-item mix all 2016 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232358/consumer-wkflow-pass-reset-thumb_ct0rd0.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Consumer Workflow</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<p class="description">Consumer workflow response emails... 2 items </p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232362/consumer-workflow-acct-details_uej6nb.png" class="port-item" data-lightbox="consumer-wkflow" data-title="<h3>Account details email</h3><h4>Lead Gen Email</h4><div class='line'></div><p>part of the consumer workflow emails...</p>"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414201/employer-ecosystem1_g0ky0y.jpg" class="port-item" data-lightbox="img" data-title="<h3>Employer Ecosystem</h3><h4>sales sheet</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all print sales 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414205/employer-ecosystem-thumb_ykagib.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Employer Ecosystem</h2>
+						<h4 class="subclass">sales sheet</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414206/employer-ecosystem2_szbbv0.jpg" class="port-item" data-lightbox="img" data-title="<h3>Employer Ecosystem</h3><h4>sales sheet</h4><div class='line'></div><!-- <p>description...</p> -->">
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232382/march2016_stivjr.png" class="port-item" data-lightbox="img" data-title="<h3>March 2016</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232380/march2016-thumb_nj8cho.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">March 2016</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168470/EmployeeConfusion-min_ixwo8e.jpg" class="port-item" data-lightbox="img" data-title="<h3>Supermarket Confusion</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168458/EmployeeConfusion-thumb-min_jyrzol.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Supermarket Confusion</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232376/april2016_jz1qhx.png" class="port-item" data-lightbox="img" data-title="<h3>April 2016</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232373/april2016-thumb_scfcby.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">April 2016</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232449/march_skin_vwyxr0.jpg" class="port-item" data-lightbox="img" data-title="<h3>National Nutrition Month Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232445/march_skin-thumb_cihvab.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">National Nutrition </br> Month Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232437/kid-huckabee-skin_nq9pah.jpg" class="port-item" data-lightbox="img" data-title="<h3>Kid Huckabee Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232437/Kid-Huckabee-thumb_q9nwcr.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Kid Huckabee Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232449/NewYearsTips_qzez5t.jpg" class="port-item" data-lightbox="img" data-title="<h3>New Years Tips Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232446/NewYearsTips-thumb_i6uzhn.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">New Years Tips Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232444/KingArthur_fq9yi4.jpg" class="port-item" data-lightbox="img" data-title="<h3>King Arthur Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232441/KingArthur-thumb_higvvc.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">King Arthur Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411298/harvard-pilgrim1-min_hdjzhx.png" class="port-item" data-lightbox="harvard-pilgrim-cs" data-title="<h3>Harvard Pilgrim</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all print case-studies 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411317/harvard-pilgrim-thumb_p9tjdr.jpg" class="image">
+					<div class="text-box">
+					<div class="border"></div>
+						<h2 class="title">Harvard Pilgrim</h2>
+						<h4 class="subclass">Case Study</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411294/harvard-pilgrim2-min_zivq7q.png" class="port-item" data-lightbox="harvard-pilgrim-cs" data-title="<h3>Harvard Pilgrim</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411297/harvard-pilgrim3-min_rekdju.png" class="port-item" data-lightbox="harvard-pilgrim-cs" data-title="<h3>Harvard Pilgrim</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411312/harvard-pilgrim4-min_sdpyb2.png" class="port-item" data-lightbox="harvard-pilgrim-cs" data-title="<h3>Harvard Pilgrim</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411322/harvard-pilgrim5-min_ecm1sz.png" class="port-item" data-lightbox="harvard-pilgrim-cs" data-title="<h3>Harvard Pilgrim</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411319/harvard-pilgrim6-min_ih1adh.png" class="port-item" data-lightbox="harvard-pilgrim-cs" data-title="<h3>Harvard Pilgrim</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463419728/JAXredo-PRINT_vjsbv7.jpg" class="port-item" data-lightbox="jax-cs" data-title="<h3>Jackson Labs</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all print case-studies 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463419728/JAXredo-thumb_vrsfhv.jpg" class="image">
+					<div class="text-box">
+					<div class="border"></div>
+						<h2 class="title">Jackson Labs</h2>
+						<h4 class="subclass">Case Study</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463419728/JAXredo-PRINT2_unqfdw.jpg" class="port-item" data-lightbox="jax-cs" data-title="<h3>Jackson Labs</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463419728/JAXredo-PRINT3_ppuhan.jpg" class="port-item" data-lightbox="jax-cs" data-title="<h3>Jackson Labs</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232460/winter-farmers_uceang.jpg" class="port-item" data-lightbox="img" data-title="<h3>Winter Farmer's Market Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232460/winter-farmers-thumb_c3njz1.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Winter Farmer's Market </br> Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232439/Holiday_skin_izmxwh.jpg" class="port-item" data-lightbox="img" data-title="<h3>Holiday 2015 Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232436/Holiday_skin-thumb_kd9cq7.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Holiday 2015 Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232454/Sept-prostate-web_gyrghl.jpg" class="port-item" data-lightbox="img" data-title="<h3>Prostate Cancer Awareness</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232450/Sept-prostate-thumb_wwr38b.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Prostate Cancer <br>Awareness</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168480/Mindful_Eating-min_tf3wk3.png" class="port-item" data-lightbox="img" data-title="<h3>Mindful Eating</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168474/Mindful_Eating-thumb-min_zi0wsl.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Mindful Eating</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="images/case-studies/JAX-labs/JAX-Labs2.png" class="port-item" data-lightbox="jax-cs" data-title="<h3>Jackson Labs</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="images/case-studies/JAX-labs/JAX-Labs3.png" class="port-item" data-lightbox="jax-cs" data-title="<h3>Jackson Labs</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411372/non-perishable1-min_ec3any.png" class="port-item" data-lightbox="non-perish-cs" data-title="<h3>Why Brands Choose Nutrisavings</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->">
+				<li class="portfolio-item mix all print case-studies 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411403/non-perishable-thumb_vagjd2.jpg" class="image">
+					<div class="text-box">
+					<div class="border"></div>
+						<h2 class="title">Why Brands Choose<br> Nutrisavings</h2>
+						<h4 class="subclass">Case Study</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411375/non-perishable2-min_rb0w0y.png" class="port-item" data-lightbox="non-perish-cs" data-title="<h3>Why Brands Choose Nutrisavings</h3><h4>case study</h4><div class='line'></div><!-- <p>Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232379/jan2015_hqkrzf.png" class="port-item" data-lightbox="img" data-title="<h3>January 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232377/jan2015-thumb_dkryoc.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">January 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232376/feb2015_qnkqbn.png" class="port-item" data-lightbox="img" data-title="<h3>February 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232375/feb2015-thumb_kxfrl5.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">February 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232432/August-School_axtizo.jpg" class="port-item" data-lightbox="img" data-title="<h3>Back to School Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232423/August-Back-to-School-thumb_eduulp.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Back to School Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232460/MIndful_Eating-web_riucad.png" class="port-item" data-lightbox="img" data-title="<h3>Mindful Eating Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232446/MIndful_Eating-thumb_vvcgul.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Mindful Eating Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232449/pork-june-web_lcm1un.jpg" class="port-item" data-lightbox="img" data-title="<h3>Pork Offer Skin</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232448/PorkOfferJune-thumb_ncjdrs.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Pork Offer Skin</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411748/Baseball_bexmuq.png" class="port-item" data-lightbox="img" data-title="<h3>Baseball Landing Page</h3><h4>landing page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411632/Baseball-thumb_cxqs4j.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Baseball Landing Page</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411777/BonusGiveaway_dwsvig.png" class="port-item" data-lightbox="img" data-title="<h3>Bonus Giveaway</h3><h4>landing page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411701/BonusGiveaway-thumb_lw8qii.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Bonus Giveaway</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411884/BreakRoomPosters_lukbn3.png" class="port-item" data-lightbox="img" data-title="<h3>Break Room Posters</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411679/BreakRoomPosters-thumb_dtqbz7.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Break Room Posters</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411781/ChronicIllness_lw2xax.png" class="port-item" data-lightbox="img" data-title="<h3>Chronic Illness Landing Page</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411748/ChronicIllness-thumb_a1v4ku.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Chronic Illness Landing Page</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411858/EmployeeWellnessStarterKit_ymvsp9.png" class="port-item" data-lightbox="img" data-title="<h3>Employee Wellness Starter Kit</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411780/EmployeeWellnessStarterKit-thumb_xymhhw.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Employee Wellness </br> Starter Kit</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411816/healthy-holiday_lwwmpn.png" class="port-item" data-lightbox="img" data-title="<h3>Healthy Holiday Shopping</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411798/healthy-holiday-thumb_nyfmm2.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Healthy Holiday Shopping</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411930/HolidaySweepstakes_LandingPage_ekllb4.png" class="port-item" data-lightbox="img" data-title="<h3>Holiday Sweepstakes</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411821/HolidaySweepstakes-thumb_trbtze.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Holiday Sweepstakes</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411891/Kid-Huckabee-LandingPage_prnrl0.png" class="port-item" data-lightbox="img" data-title="<h3>Kid Huckabee Landing Page</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411888/Kid-Huckabee-thumb_yl4gdu.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Kid Huckabee</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463412003/Kid-HuckabeeWP_ouamrl.png" class="port-item" data-lightbox="img" data-title="<h3>Kid Huckabee Marketing Site Page</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463412012/Newsletter_g7qxzi.png" class="port-item" data-lightbox="img" data-title="<h3>Newsletter Landing Page</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411914/Newsletter-thumb_x3j5k3.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Newsletter Landing Page</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463412122/Nutrition-QSG_llqpjg.png" class="port-item" data-lightbox="img" data-title="<h3>Nutrition Quick Start Guide</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411953/Nutrition-QSG-thumb_xhad1l.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Nutrition Quick </br>Start Guide</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463412094/Retailers_Mobile-App_j6slmy.png" class="port-item" data-lightbox="img" data-title="<h3>Mobile App Landing Page</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411980/Retailers_Mobile-App-thumb_zulvzu.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Mobile App Landing Page</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463412110/ThankYou_schho3.png" class="port-item" data-lightbox="img" data-title="<h3>Interest Response Page</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411993/ThankYou-thumb_t8smfg.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Interest Response Page</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463412111/Walmart-LandingPage_ohxsty.png" class="port-item" data-lightbox="img" data-title="<h3>Walmart Announcement</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails landing-pages">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463412046/Walmart-thumb_koughf.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Walmart Announcement</h2>
+						<h4 class="subclass">landing page</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232392/walmart_ouvmpq.png" class="port-item" data-lightbox="img" data-title="<h3>Walmart</h3><h4>Landing Page</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232392/walmart-thumb_o99rzy.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Walmart</h2>
+						<h4 class="subclass">Participant Email</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232365/st.josephs-hospital_b9gscw.png" class="port-item" data-lightbox="img" data-title="<h3>St. Joseph's Hospital</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2015 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232365/st.josephs-hospital-thumb_dgfk76.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">St. Joseph's Hospital</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168493/GrillSafety-min_k7p6bd.jpg" class="port-item" data-lightbox="img" data-title="<h3>Grill Safety</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168476/GrillSafety-thumb-min_gjxn12.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Grill Safety</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232381/march2015_slekgo.png" class="port-item" data-lightbox="img" data-title="<h3>March 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232378/march2015-thumb_qsulxo.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">March 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232375/april2015_ro6cy2.png" class="port-item" data-lightbox="img" data-title="<h3>April 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232376/april2015-thumb_qtnhjp.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">April 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232369/tax-credit-campaign1_awsoxi.png" class="port-item" data-lightbox="tax-credit" data-title="<h3>MA Tax Credit Campaign 1</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all 2015 emails leadgen">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232369/tax-credit-campaign1-thumb_uf9cqb.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">MA Tax Credit Campaigns</h2>
+						<h4 class="subclass">lead gen email</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232368/tax-credit-campaign2_uknjkz.png" class="port-item" data-lightbox="tax-credit" data-title="<h3>MA Tax Credit Campaign 2</h3><h4>Lead Gen Email</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232382/may2015_ekv4sh.png" class="port-item" data-lightbox="img" data-title="<h3>May 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232381/may2015-thumb_qwrpo4.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">May 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168480/FoodAllergy-min_gmyoxa.png" class="port-item" data-lightbox="img" data-title="<h3>Foods that Help Treat Allergies</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168470/FoodAllergy-thumb-min_p8ln4i.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Foods that Help Treat <br> Allergies</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232379/june2015_nfkry0.png" class="port-item" data-lightbox="img" data-title="<h3>June 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232378/june2015-thumb_hn58b2.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">June 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1459885286/Maine_Health_Poster_alf8nv.jpg" class="port-item" data-lightbox="img" data-title="<h3>Maine Health Poster</h3><h4>print collateral</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all print collateral 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1459885292/Maine_Health_Poster-thumb_d9l1nq.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Maine Health Poster</h2>
+						<h4 class="subclass">print collateral</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232374/august2015_nkgelm.png" class="port-item" data-lightbox="img" data-title="<h3>August 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232373/august2015-thumb_cjkwzp.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">August 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232384/sept2015_ksowf5.png" class="port-item" data-lightbox="img" data-title="<h3>September 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232383/sept2015-thumb_t5d0pb.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">September 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232384/oct2015_vevtpm.png" class="port-item" data-lightbox="img" data-title="<h3>October 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232383/oct2015-thumb_sm8qlc.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">October 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463168486/GroceryBag-min_fycqme.jpg" class="port-item" data-lightbox="img" data-title="<h3>Tips for a Healthier Grocery Bag</h3><h4>infographic</h4><div class='line'></div><p>Months</p>">
+				<li class="portfolio-item mix all infographics 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463168487/GroceryBag-thumb-min_yn05rs.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Tips for a Healthier <br> Grocery Bag</h2>
+						<h4 class="subclass">infographic</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232382/nov2015_hbh854.png" class="port-item" data-lightbox="img" data-title="<h3>November 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232384/nov2015-thumb_kyuza4.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">November 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232376/dec2015_g0kn9i.png" class="port-item" data-lightbox="img" data-title="<h3>December 2015</h3><h4>newsletter</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails newsletter 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232375/dec2015-thumb_phhhyw.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">December 2015</h2>
+						<h4 class="subclass">newsletter</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420185/200_Reasons_emailheader3_bduedr.jpg" class="port-item" data-lightbox="img" data-title="<h3>200 Reasons To Engage</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420212/200_Reasons-thumb_fidhcz.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">200 Reasons To Engage</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420195/BirdsEye_Hannaford_rbsh9t.jpg" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420192/BirdsEye_Hannaford-thumb_e1ba1x.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Birds Eye</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420192/BreastCancerAwarenessSkin_fdtpl0.jpg" class="port-item" data-lightbox="img" data-title="<h3>Breast Cancer Awareness</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420204/BreastCancerAwareness-thumb_b66wip.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Breast Cancer Awareness</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420192/BreastCancerBannerAd_yxcsyv.jpg" class="port-item" data-lightbox="img" data-title="<h3>Breast Cancer Awareness Top Banner</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420213/BumbleBee_Hannaford_bday3w.jpg" class="port-item" data-lightbox="img" data-title="<h3>Bumble Bee</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420214/BumbleBee_Hannaford-thumb_z4grot.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Bumble Bee</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420224/CabotCheese_Hannaford_ys60pw.jpg" class="port-item" data-lightbox="img" data-title="<h3>Cabot Cheese</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420233/CabotCheese_Hannaford-thumb_rxss1q.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Cabot Cheese</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420240/FreeFoodFriday_sample_dexabm.jpg" class="port-item" data-lightbox="img" data-title="<h3>Free Food Friday</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420245/FreeFoodFriday-thumb_mhtvzu.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Free Food Friday</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420225/FreeFoodFriday_Cauliflower_fqlais.jpg" class="port-item" data-lightbox="img" data-title="<h3>Free Food Friday: Cauliflower</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420225/FreeFoodFriday_Cauliflower-thumb_vdctg2.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Free Food Friday: </br> Cauliflower</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420227/FreeFoodFriday_CollardGreens_gimfn9.jpg" class="port-item" data-lightbox="img" data-title="<h3>Free Food Friday: Collard Greens</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420229/FreeFoodFriday_Collards-thumb_ofmk3c.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Free Food Friday: </br> Collard Greens</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420229/FreeFoodFriday_GrapeFruit_v35rux.jpg" class="port-item" data-lightbox="img" data-title="<h3>Free Food Friday: Grapefruit</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420230/FreeFoodFriday_GrapeFruit-thumb_mo61sc.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Free Food Friday: </br> Grapefruit</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420238/Grill_header_lp_citime.png" class="port-item" data-lightbox="img" data-title="<h3>Win A Grill Ad</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420233/Grill_header-thumb_xhggdp.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Win A Grill Ad</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420238/Halloween-Ad_y17lsh.png" class="port-item" data-lightbox="img" data-title="<h3>Health-O-Ween Ad</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420232/Halloween-Ad-thumb_tpx1zo.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Health-O-Ween Ad</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420242/MobileApp_banner_ettwbt.png" class="port-item" data-lightbox="img" data-title="<h3>Mobile App Ad</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420234/MobileAdUnit-thumb_zu8zoj.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Mobile App Ad</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420247/PorkBannerAd_160x600_o8xnbg.png" class="port-item" data-lightbox="img" data-title="<h3>Pork Banner Ads</h3><h4>banner ad</h4><div class='line'></div><p>side banner</p>">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420244/PorkBannerAd-thumb_ci1jd1.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Pork Banner Ads</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420249/PorkBannerAd_728x90_dutgz0.png" class="port-item" data-lightbox="img" data-title="<h3>Pork Banner Ads</h3><h4>banner ad</h4><div class='line'></div><p>top banner</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420263/RusticCrust_Capecod_Hannaford_igedoq.jpg" class="port-item" data-lightbox="img" data-title="<h3>Rustic Crust &amp; Cape Cod Ads</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420271/RusticCrust_Hannaford-thumb_uqxa97.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Rustic Crust &amp; </br> Cape Cod Ads</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420260/ThanksgivingAd_k10imu.png" class="port-item" data-lightbox="img" data-title="<h3>Rustic Crust &amp; Cape Cod Ads</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420256/ThanksgivingAd-thumb_rezpa6.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Rustic Crust &amp; </br> Cape Cod Ads</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463420254/Recipe_Upload_Ad160x600_uf165w.jpg" class="port-item" data-lightbox="img" data-title="<h3>Upload Your Recipe</h3><h4>banner ad</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc banner-ads 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463420249/Recipe_Upload_Ad-thumb_dcddv5.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Upload Your Recipe</h2>
+						<h4 class="subclass">banner ad</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232312/BirdsEye_Campaign_bme5ue.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc campaigns 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232311/BirdsEye_Campaign-thumb_ylgwps.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Birds Eye Campaign</h2>
+						<h4 class="subclass">campaigns</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232312/BirdsEye_Campaign2_fnjzun.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232313/BirdsEye_Campaign3_o17hdc.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232312/BirdsEye_Campaign4_k378le.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232313/BirdsEye_Campaign5_t0yrtx.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232313/BirdsEye_Campaign6_mqvzta.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232314/BirdsEye_Campaign7_yumhl2.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232314/BirdsEye_Campaign8_ctwkff.png" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232320/Cabot_Campaign_truzz8.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc campaigns 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232314/Cabot_Campaign-thumb_uy06av.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Cabot Campaign</h2>
+						<h4 class="subclass">campaigns</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232316/Cabot_Campaign2_ug1peu.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232315/Cabot_Campaign3_kcrwnc.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232318/Cabot_Campaign4_ofnoxt.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232317/Cabot_Campaign5_lhbob4.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232320/Cabot_Campaign6_sachb2.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232317/Cabot_Campaign7_zkhabm.png" class="port-item" data-lightbox="img" data-title="<h3>Cabot Campaign</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232317/CashierInstructions_MaineHealth_f5unkx.png" class="port-item" data-lightbox="img" data-title="<h3>Maine Health Cashier Instructions</h3><h4>campaigns</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc campaigns 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232316/CashierInst_MaineHealth-thumb_wh4w6a.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Maine Health </br> Cashier Instructions</h2>
+						<h4 class="subclass">campaigns</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411345/CaseStudy_MaineHealth_t45lnc.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->">
+				<li class="portfolio-item mix all print case-studies 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463411361/MaineHealth-thumb_ipqtqg.png" class="image">
+			
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Maine Health</h2>
+						<h4 class="subclass">case study</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...</p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411339/CaseStudy_MaineHealth2_tjnv8j.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411350/CaseStudy_MaineHealth3_mjs3nt.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411350/CaseStudy_MaineHealth4_wrhnl7.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411350/CaseStudy_MaineHealth5_edunxy.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411354/CaseStudy_MaineHealth6_i6qeh9.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411350/CaseStudy_MaineHealth7_bzae1q.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411353/CaseStudy_MaineHealth8_qef3a1.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411353/CaseStudy_MaineHealth9_g01hyp.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411326/CaseStudy_MaineHealth10_gr4nfz.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463411325/CaseStudy_MaineHealth12_lxxvda.png" class="port-item" data-lightbox="maine-health-cs" data-title="<h3>Maine Health</h3><h4>case study</h4><div class='line'></div><!-- <p>Fruits</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232390/cpg_oddexf.png" class="port-item" data-lightbox="img" data-title="<h3>CPG Email</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232389/cpg-thumb_x7e04b.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">CPG Email</h2>
+						<h4 class="subclass">participant email</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="ihttp://res.cloudinary.com/dxefmitas/image/upload/v1463232390/fresh-direct_jlwzlr.png" class="port-item" data-lightbox="img" data-title="<h3>Fresh Direct</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant 2015">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232390/fresh-direct-thumb_i7gglw.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Fresh Direct</h2>
+						<h4 class="subclass">participant email</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232391/price-chopper-ppt_jbrzj1.png" class="port-item" data-lightbox="img" data-title="<h3>Price Chopper</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant 2016">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232391/price-chopper-thumb_azk1rb.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Price Chopper</h2>
+						<h4 class="subclass">participant email</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232391/AddRewardsCardEmail_1_phufxw.jpg" class="port-item" data-lightbox="img" data-title="<h3>Add Rewards Card Emails</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232388/add-rewards-card-email-thumb_bij3yo.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Add Rewards Card Emails</h2>
+						<h4 class="subclass">participant email</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232388/AddRewardsCardEmail_2_zy4f9h.jpg" class="port-item" data-lightbox="img" data-title="<h3>Add Rewards Card Emails</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232388/AddRewardsCardEmail_3_b7yeo9.jpg" class="port-item" data-lightbox="img" data-title="<h3>Add Rewards Card Emails</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232390/OutfitKitchenEmail_bzcaat.jpg" class="port-item" data-lightbox="img" data-title="<h3>Outfit Kitchen Email</h3><h4>Participant Email</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all emails participant 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232391/OutfitKitchenEmail-thumb_bhd4d7.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Outfit Kitchen Email</h2>
+						<h4 class="subclass">participant email</h4>
+						<div class="line"></div>
+					<!-- 	<p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418713/EatRightRewards_SignUpFlyer_xw6xoz.png" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Eat Right Rewards Signup Flyer</h3><h4>Flyer</h4><div class='line'></div><p>front page</p>">
+				<li class="portfolio-item mix all print collateral 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463418713/EatRightRewards_SignUpFlyer-thumb_yegc9q.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Eat Right Rewards </br> Signup Flyer</h2>
+						<h4 class="subclass">Flyer</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418713/EatRightRewards_SignUpFlyer2_otl1oz.png" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Eat Right Rewards Signup Flyer</h3><h4>Flyer</h4><div class='line'></div><p>back page</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463418737/healthlyTRcard_filcox.png" class="port-item" data-lightbox="nutrition-guide" data-title="<h3>Nutrisavings Card</h3><h4>Debit/Credit Card</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all print collateral 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463418713/healthlyTRcard-thumb_k2ewtp.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Nutrisavings Card</h2>
+						<h4 class="subclass">Debit/Credit Card</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232454/BirdsEye_Video-Popup_j4jfty.jpg" class="port-item" data-lightbox="img" data-title="<h3>Birds Eye Video Popup Sample</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232453/BirdsEye_Video-Popup-thumb_pgr2qe.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Birds Eye Video </br> Popup Sample</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232455/BumbleBee_Video-Popup_blvol1.jpg" class="port-item" data-lightbox="img" data-title="<h3>Bumble Bee Video Popup Sample</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232456/BumbleBee_Video-Popup-thumb_cknlfq.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Bumble Bee Video </br> Popup Sample</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232456/CabotCheese_Video-Popup_hmw24w.jpg" class="port-item" data-lightbox="img" data-title="<h3>Cabot Cheese Video Popup Sample</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232455/CabotCheese_Video-Popup-thumb_ydr6ix.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Cabot Cheese Video </br> Popup Sample</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232456/CapeCod_Video-Popup_hphsyr.jpg" class="port-item" data-lightbox="img" data-title="<h3>Cape Cod Video Popup Sample</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232456/CapeCod_Video-Popup-thumb_beo2ub.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Cape Cod Video </br> Popup Sample</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232459/WellNow_Branding_pvdvqs.jpg" class="port-item" data-lightbox="img" data-title="<h3>Well Now Client Branding</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232460/WellNow_Branding-thumb_g0jry3.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Well Now </br> Client Branding</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414248/AddingFamilyPages_zfdxut.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414251/AddingFamilyPages-thumb_md8fdr.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Adding Family Pages</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Sequence for adding family pages on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414250/AddingFamilyPages2_f0jo3r.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414251/AddingFamilyPages3_s0irup.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414249/AddingFamilyPages4_mllqve.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414249/AddingFamilyPages5_qhktto.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414249/AddingFamilyPages6_sdb8j3.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414261/AddingFamilyPages7_yzq25h.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414251/AddingFamilyPages8_zheztg.png" class="port-item" data-lightbox="add-family" data-title="<h3>Sequence For Adding Family Pages</h3><h4>product</h4><div class='line'></div><p>Sequence for adding family pages on the customer website</p>"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414264/CustomerWelcomeJourney_caw4h6.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414251/CustomerWelcomeJourney-thumb_q9m5ou.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Customer Welcome Journey</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for customer welcome journey on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414271/CustomerWelcomeJourney2_ve53cy.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414260/CustomerWelcomeJourney3_vnptdo.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414285/CustomerWelcomeJourney4_yhoqjn.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414264/CustomerWelcomeJourney5_ibova1.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414284/CustomerWelcomeJourney6_dbwsd4.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414269/CustomerWelcomeJourney7_qkcweb.png" class="port-item" data-lightbox="cust-journey" data-title="<h3>Customer Welcome Journey</h3><h4>product</h4><div class='line'></div><p>Design for customer welcome journey on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414266/EmployeeRegistration_r0avrs.png" class="port-item" data-lightbox="employee-reg" data-title="<h3>Employee Registration Sequence</h3><h4>product</h4><div class='line'></div><p>Design for employee registration sequence on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414268/EmployeeRegistration-thumb_nesw6i.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Employee Registration </br> Sequence</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for employee registration sequence on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414268/EmployeeRegistration2_tbhsae.png" class="port-item" data-lightbox="employee-reg" data-title="<h3>Employee Registration Sequence</h3><h4>product</h4><div class='line'></div><p>Design for employee resitration sequence on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414269/EmployeeRegistration3_jxydqf.png" class="port-item" data-lightbox="employee-reg" data-title="<h3>Employee Registration Sequence</h3><h4>product</h4><div class='line'></div><p>Design for employee resitration sequence on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414273/EmployeeRegistration4_xsutvt.png" class="port-item" data-lightbox="employee-reg" data-title="<h3>Employee Registration Sequence</h3><h4>product</h4><div class='line'></div><p>Design for employee resitration sequence on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414280/FarmersMarket_e0mma3.png" class="port-item" data-lightbox="farmers-mkt" data-title="<h3>Farmer's Market Sequence</h3><h4>product</h4><div class='line'></div><p>Design for the Farmer's Market sequence on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414283/FarmersMarket-thumb_m4q5pv.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Farmer's Market Sequence</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for the Farmer's Market sequence on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414290/FarmersMarket2_a8pwsf.png" class="port-item" data-lightbox="farmers-mkt" data-title="<h3>Farmer's Market Sequence</h3><h4>product</h4><div class='line'></div><p>Design for the Farmer's Market sequence on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414291/FarmersMarket3_lvskc0.png" class="port-item" data-lightbox="farmers-mkt" data-title="<h3>Farmer's Market Sequence</h3><h4>product</h4><div class='line'></div><p>Design for the Farmer's Market sequence on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414307/NewHomepage_March2015_v2htfm.png" class="port-item" data-lightbox="new-home" data-title="<h3>New Homepage Designs</h3><h4>product</h4><div class='line'></div><p>Design for the new homepage on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414307/NewHomepage-thumb_tasldv.png" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">New Homepage Designs</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for the new homepage on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414315/NewHomepage_March20152_om9hkc.png" class="port-item" data-lightbox="new-home" data-title="<h3>New Homepage Designs</h3><h4>product</h4><div class='line'></div><p>Design for the new homepage on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414319/NewHomepage_March20153_b2qroi.png" class="port-item" data-lightbox="new-home" data-title="<h3>New Homepage Designs</h3><h4>product</h4><div class='line'></div><p>Design for the new homepage on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414318/NewHomepage_March20154_bvl8ac.png" class="port-item" data-lightbox="new-home" data-title="<h3>New Homepage Designs</h3><h4>product</h4><div class='line'></div><p>Design for the new homepage on the customer website</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414326/ShoppingList_familydropdown_kwvwdd.jpg" class="port-item" data-lightbox="img" data-title="<h3>Family Shopping List Design</h3><h4>product</h4><div class='line'></div><p>Design for the 'Family' shopping list on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414316/ShoppingList-thumb_ho1nsm.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Family Shopping List </br> Design</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for the 'Family' shopping list on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414309/FDA_Popup_zthgen.jpg" class="port-item" data-lightbox="img" data-title="<h3>FDA Popup</h3><h4>product</h4><div class='line'></div><p>Design for the FDA popup on the customer website</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414298/FDA_Popup-thumb_zojm22.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">FDA Popup</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for the FDA popup on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414311/Order_FoodCityCard_pzk1lg.jpg" class="port-item" data-lightbox="loyalty-card" data-title="<h3>Order A Loyalty Card</h3><h4>product</h4><div class='line'></div><p>Design for the sequence of registering and adding a loyalty card on the customer website. This is the page on the customer site where a user orders a Loyalty Card. Here, the example shown is with the retailer 'Food City'.</p>">
+				<li class="portfolio-item mix all product 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463414292/Barcode_email-thumb_qdzgtz.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Loyalty Card Registration</h2>
+						<h4 class="subclass">product</h4>
+						<div class="line"></div>
+						<p class="description">Design for the sequence of adding a loyalty card on the customer website...</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414304/Loyalty_Card_Page_FoodCityCard_HOVER_kkstvq.jpg" class="port-item" data-lightbox="loyalty-card" data-title="<h3>Verify Loyalty Card Registration Details</h3><h4>product</h4><div class='line'></div><p>This is the page on the customer site where a user interfaces with a popup requiring verification of loyalty card order details.</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414305/Loyalty_Card_Page_FoodCityCard_HOVER_Success_jrqp55.jpg" class="port-item" data-lightbox="loyalty-card" data-title="<h3>Successful Loyalty Card Registration</h3><h4>product</h4><div class='line'></div><p>Design for the sequence of adding a loyalty card on the customer website. This popup is shown after a user has successfully ordered a loyalty card.</p>"></a>
+
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414291/Barcode_email_inh3qd.jpg" class="port-item" data-lightbox="loyalty-card" data-title="<h3>Loyalty Card Registration</h3><h4>product</h4><div class='line'></div><p>This is the email a customer receives with their Loyalty Card number and barcode.</p>">
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463414306/Loyalty_Card_Page_gx2xnw.jpg" class="port-item" data-lightbox="loyalty-card" data-title="<h3>Enter Loyalty Card Number</h3><h4>product</h4><div class='line'></div><p>This is the page on the customer site where a user enters his/her loyalty card number.</p>"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232432/HappyHolidayGuidetoFood_piece1_pqtmya.jpg" class="port-item" data-lightbox="holiday-food" data-title="<h3>Holiday Guide To Food</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->">
+				<li class="portfolio-item mix all misc graphics 2014">
+					<img src="http://res.cloudinary.com/dxefmitas/image/upload/v1463232432/HappyHolidayGuidetoFood-thumb_guovhk.jpg" class="image">
+					<div class="text-box">
+						<div class="border"></div>
+						<h2 class="title">Holiday Guide To Food</h2>
+						<h4 class="subclass">graphics</h4>
+						<div class="line"></div>
+						<!-- <p class="description">Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh...  </p> -->
+					</div>
+				</li>
+			</a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232433/HappyHolidayGuidetoFood_piece2_nggvp6.jpg" class="port-item" data-lightbox="holiday-food" data-title="<h3>Holiday Guide To Food</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232433/HappyHolidayGuidetoFood_piece3_xuvq66.jpg" class="port-item" data-lightbox="holiday-food" data-title="<h3>Holiday Guide To Food</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232433/HappyHolidayGuidetoFood_piece4_oigpdt.jpg" class="port-item" data-lightbox="holiday-food" data-title="<h3>Holiday Guide To Food</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+			<a href="http://res.cloudinary.com/dxefmitas/image/upload/v1463232433/HappyHolidayGuidetoFood_piece5_fjudax.jpg" class="port-item" data-lightbox="holiday-food" data-title="<h3>Holiday Guide To Food</h3><h4>graphics</h4><div class='line'></div><!-- <p>description...</p> -->"></a>
+
+
+		<script type="text/javascript">
+
+
+
+			// On document ready:
+
+			// $(function(){
+			// 	// Instantiate MixItUp:
+			// 	$('#portfolio').mixItUp()
+
+			// });
+
+			//Filtering
+
+			// To keep our code clean and modular, all custom functionality will be contained inside a single object literal called "buttonFilter".
+
+			var buttonFilter = {
+			  
+			  // Declare any variables we will need as properties of the object
+			  
+			  $filters: null,
+			  $reset: null,
+			  groups: [],
+			  outputArray: [],
+			  outputString: '',
+			  
+			  // The "init" method will run on document ready and cache any jQuery objects we will need.
+			  
+			  init: function(){
+			    var self = this; // As a best practice, in each method we will asign "this" to the variable "self" so that it remains scope-agnostic. We will use it to refer to the parent "buttonFilter" object so that we can share methods and properties between all parts of the object.
+			    
+			    self.$filters = $('#Filters');
+			    self.$reset = $('#Reset');
+			    self.$portfolio = $('#portfolio');
+			    
+			    self.$filters.find('fieldset').each(function(){
+			      self.groups.push({
+			        $buttons: $(this).find('.filter'),
+			        active: ''
+			      });
+			    });
+			    
+			    self.bindHandlers();
+			  },
+			  
+			  // The "bindHandlers" method will listen for whenever a button is clicked. 
+			  
+			  bindHandlers: function(){
+			    var self = this;
+			    
+			    // Handle filter clicks
+			    
+			    self.$filters.on('click', '.filter', function(e){
+			      e.preventDefault();
+			     
+			      var $button = $(this);
+
+			      self.$filters.find('.subfilter').removeClass('active');
+
+			      // If the button is active, remove the active class, else make active and deactivate others.
+
+			      $button.hasClass('active') ? $button.removeClass('active') : $button.addClass('active').siblings('.filter').removeClass('active');
+
+			      self.parseFilters();
+			    });
+
+		
+			    // Handle reset click
+			    
+			    self.$reset.on('click', function(e){
+			      e.preventDefault();
+			      
+			      self.$filters.find('.filter').removeClass('active');
+			      
+			      self.parseFilters();
+			    });
+			  },
+			  
+			  // The parseFilters method checks which filters are active in each group:
+			  
+			  parseFilters: function(){
+			    var self = this;
+			 
+			    // loop through each filter group and grap the active filter from each one.
+			    
+			    for(var i = 0, group; group = self.groups[i]; i++){
+			      group.active = group.$buttons.filter('.active').attr('data-filter') || '';
+			    }
+			    
+			    self.concatenate();
+			  },
+			  
+			  // The "concatenate" method will crawl through each group, concatenating filters as desired:
+			  
+			  concatenate: function(){
+			    var self = this;
+			    
+			    self.outputString = ''; // Reset output string
+			    
+			    for(var i = 0, group; group = self.groups[i]; i++){
+			      self.outputString += group.active;
+			    }
+			    
+			    // If the output string is empty, show all rather than none:
+			    
+			    !self.outputString.length && (self.outputString = '.all'); 
+			    
+			    console.log(self.outputString); 
+			    
+			    // ^ we can check the console here to take a look at the filter string that is produced
+			    
+			    // Send the output string to MixItUp via the 'filter' method:
+			    
+				  if(self.$portfolio.mixItUp('isLoaded')){
+			    	self.$portfolio.mixItUp('filter', self.outputString);
+				  }
+			  }
+			};
+			  
+			// On document ready, initialise our code.
+
+			$(function(){
+			      
+			  // Initialize buttonFilter code
+			      
+			  buttonFilter.init();
+			      
+			  // Instantiate MixItUp
+			      
+			  $('#portfolio').mixItUp({
+			    controls: {
+			      enable: false // we won't be needing these
+			    },
+			  });    
+			});
+
+			//SEARCH
+
+			$(function() {
+
+	  		// $("#portfolio").mixItUp();
+
+			  var inputText;
+			  var $matching = $();
+
+			  // Delay function
+			  var delay = (function(){
+			    var timer = 0;
+			    return function(callback, ms){
+			      clearTimeout (timer);
+			      timer = setTimeout(callback, ms);
+			    };
+			  })();
+
+			  $("#input").keyup(function(){
+
+			    $('#Filters').find('.filter').removeClass('active');
+
+			    // Delay function invoked to make sure user stopped typing
+			    delay(function(){
+			      inputText = $("#input").val().toLowerCase();			     
+
+			      // Check to see if input field is empty
+			      if ((inputText.length) > 0) {            
+			        $( '.mix').each(function() {
+			          $this = $("this");
+			          
+			           // add item to be filtered out if input text matches items inside the title   
+			           if($(this).children('.text-box').text().toLowerCase().match(inputText)) {
+			            $matching = $matching.add(this);
+			          }
+			          else {
+			            // removes any previously matched item
+			            $matching = $matching.not(this);
+			          }
+			        });
+
+			        $("#portfolio").mixItUp('filter', $matching);
+			      }
+
+			      else {
+			        // resets the filter to show all item if input is empty
+			        $("#portfolio").mixItUp('filter', 'all');
+			      }
+			    }, 10 );
+
+			 //    $matching = $('#no-results').addClass('hide');
+
+		  //          if(inputText != $matching) {
+		  //         		$matching = 
+		  // $('#no-results').removeClass('hide');
+		  //         } else {
+		  //         	$matching = $('#no-results').addClass('hide');
+		  //         }
+		  // 		$('#no-results').addClass('hide');
+
+		  //         $('#portfolio').on('mixFail', function(){
+				// 	$('#no-results').removeClass('hide');
+				// });
+
+		          $('.filter').on('click', function() {
+		          	$('#input').val('');
+		          });
+
+		  //        $('#portfolio').on('mixStart', function(){
+				// 	$('#no-results').addClass('hide');
+				// });
+
+
+			  });
+			})
+
+			$('#no-results').addClass('hide');
+
+	          $('#portfolio').on('mixFail', function(){
+				$('#no-results').removeClass('hide');
+			});
+
+	          // $('.filter').on('click', function() {
+	          // 	$('#input').val('');
+	          // });
+
+	         $('#portfolio').on('mixStart', function(){
+				$('#no-results').addClass('hide');
+			});
+
+
+
+			//subnav hide/show
+
+			$('.nav-item').click(function() {
+				var self = this;
+
+			    $("#print-dropdown").removeClass('show');
+			    $("#email-dropdown").removeClass('show');
+			    $("#misc-dropdown").removeClass('show');
+
+			    window.requestAnimationFrame(function () {
+				    if ($(self)[0].id === 'print-nav-item') {
+				     	$("#print-dropdown").addClass('show');
+				    }
+				    else if ($(self)[0].id === 'email-nav-item') {
+				     	$("#email-dropdown").addClass('show');
+				    }
+				    else if ($(self)[0].id === 'misc-nav-item') {
+				     	$("#misc-dropdown").addClass('show');
+				    }
+			    });
+			});
+
+
+			//mobile menu
+
+			$('.hamburger').click(function(){
+    			$('#mobile-nav').toggleClass('fullscreen'); 
+
+			});
+
+			$('.close-icon').click(function(){
+    			$('#mobile-nav').removeClass('fullscreen'); 
+
+			});
+
+
+			$('.mobile-nav-item').click(function() {
+				var self = this;
+
+			    $("#print-mobile-dropdown").removeClass('show');
+			    $("#email-mobile-dropdown").removeClass('show');
+			    $("#misc-mobile-dropdown").removeClass('show');
+
+			    window.requestAnimationFrame(function () {
+				    if ($(self)[0].id === 'print-mobile-nav-item') {
+				     	$("#print-mobile-dropdown").toggleClass('show');
+				    }
+				    else if ($(self)[0].id === 'email-mobile-nav-item') {
+				     	$("#email-mobile-dropdown").addClass('show');
+				    }
+				    else if ($(self)[0].id === 'misc-mobile-nav-item') {
+				     	$("#misc-mobile-dropdown").addClass('show');
+				    }
+			    });
+			});
+
+
+			$('.logo-box').click(function(){
+				// removes the 'active' underline from filters
+			    $('#Filters').find('.filter').removeClass('active');
+		        // resets the filter to show all item if input is empty
+		        $(".grid").mixItUp('filter', 'all');
+			});
+
+			// $('#request').load("request.html");
+
+			// $('#request-forms').addClass('hide');
+
+
+			$(document).ready(function(){
+				$('#request').click(function(){
+					$('#request-forms').load('request.html');
+					$('#request-forms').removeClass('hide');
+					$('#portfolio').addClass('hide');
+				});
+
+				$('.nav-item, .time-nav, .nav, .search-box').click(function(){
+					$('#request-forms').addClass('hide');
+					$('#portfolio').removeClass('hide');
+				})
+			});
+
+			// $('#request-forms').removeClass('hide');
+
+			// $('#portfolio').jscroll({
+			//     loadingHtml: '<img class="scroll-preloader" src="images/preloader.gif" alt="Loading" />',
+			//     padding: 20
+			// });
+
+
+			// console.log(hits[text]);
+
+			// $('.grid').jscroll({
+			//     nextSelector: 'a.jscroll-next:last',
+			//     autoTrigger: true,
+	  //           padding:200,
+	  //           nextSelector: '.pagination li.active + li a',
+	  //           contentSelector: '.grid',
+			// });
+
+		</script>		
+		<script src="js/lightbox.js"></script>
+
+	</body>
+</html>

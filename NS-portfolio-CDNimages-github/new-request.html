@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>new request form</title>
+
+		<!-- FAVICON <link rel="shortcut icon" href="img/paint-icon.jpg"> -->
+
+		<link rel="stylesheet" type="text/css" href="css/request.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+</head>
+
+<body>
+
+<section id="new-request-form">
+
+		<h2 class="form-title">New Marketing Request</h2>
+
+		<form class="form content" name="new-request" method="post" action="contact.php">
+
+			<div class="input-wrapper">
+		   	    <input class="input" id="projectName" type="text" name="projectName"/>
+		   	    <label for="project-name" >Project Name</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input" id="requester" type="text" name="requester"/>
+		   	    <label for="requester" >Requester</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input" id="authorizer" type="text" name="authorizer"/>
+		   	    <label for="authorizer" >Authorizer</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input" id="dateNeeded" type="date" name="dateNeeded"/>
+		   	    <label for="dateNeeded" >Date Needed</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper checkbox-wrapper">
+	   	    <fieldset class="input" id="new-work-type">
+	   	    	<legend class="label legend">Work Type</legend>
+		   	    <div class="sliders">
+		   	    	<label for="copy" class="slider-label copy">Copy
+		   	   		 <div class="switch">		
+			   	    	<input type="checkbox" value="Copy" class="checkbox" id="copy" name="copy">
+						<div class="slider"></div>
+					</div>	
+				</label>
+				<label for="design" class="slider-label design">Design	
+					 <div class="switch">			
+			   	    	<input type="checkbox" value="design" class="checkbox" id="design" name="design">
+						<div class="slider"></div>
+					</div>
+				</label>
+				</div>
+				</fieldset>
+			
+			   <!--      <input type="checkbox" value="Copy" class="input checkbox" id="workType" name="workType">Copy
+			        <input type="checkbox" value="Design" class="input checkbox" id="workType2" name="workType2">Design
+			        <label for="workType" >Work Type</label> -->
+		   	  <!--   <input class="input" id="workType" type="radio" name="workType"/>
+		   	    <label for="workType" >Work Type</label> -->
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+	   	    	
+		   	    <textarea class="input" id="projectOverview" name="projectOverview" rows="1" cols="70"></textarea>
+		   	    <label for="projectOverview" >Project Overview</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <textarea class="input" id="objective" name="objective" rows="1" cols="70"></textarea>
+		   	    <label for="objective" >Objective</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <textarea class="input" id="primaryMessage" name="primaryMessage" rows="1" cols="70"></textarea>
+		   	    <label for="primaryMessage" >Primary Message</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <textarea class="input" id="secondaryMessage" name="secondaryMessage" rows="1" cols="70"></textarea>
+		   	    <label for="secondaryMessage" >Secondary Message</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <input class="input" id="targetAudience" type="text" name="authorizer"/>
+		   	    <label for="targetAudience" >Target Audience</label>
+	   	    </div><br>
+
+	   	      <div class="input-wrapper">
+		   	    <textarea class="input" id="tone" name="tone" rows="1" cols="70"></textarea>
+		   	    <label for="tone" >What is the tone?</label>
+	   	    </div><br>
+
+	   	    <h3 class="subheader">Additional Considerations</h3>
+
+	   	      <div class="input-wrapper">
+		   	    <textarea class="input" id="visuals" name="visuals" rows="1" cols="70"></textarea>
+		   	    <label for="visuals" >What visuals are important for design?</label>
+	   	    </div><br>
+
+	   	      <div class="input-wrapper">
+		   	    <textarea class="input" id="referenceMaterials" name="referenceMaterials" rows="1" cols="70"></textarea>
+		   	    <label for="referenceMaterials" >Are there existing materials we can use for reference?</label>
+	   	    </div><br>
+
+			<h3 class="subheader">Other Important Details?</h3>
+
+		   	<div class="input-wrapper">
+		   	    <textarea class="input" id="otherDetails" name="otherDetails" rows="1" cols="70"></textarea>
+	   	    </div><br>
+
+			<input class="submit" type="submit" value="Submit">
+		</form>
+
+		</section>
+
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/labels.js"></script>
+
+		</body>
+
+		</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>new request form</title>
+
+		<!-- FAVICON <link rel="shortcut icon" href="img/paint-icon.jpg"> -->
+
+		<link rel="stylesheet" type="text/css" href="css/request.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+</head>
+
+<body>
+		<section id="edits-request-form">
+			<h2 class="form-title">Edits Request</h2>
+
+		<form class="form content" name="edits-request" method="post" action="contact.php">
+
+			<div class="input-wrapper">
+		   	    <input class="input" id="projectName" type="text" name="projectName"/>
+		   	    <label for="project-name" >Project Name</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input" id="requester" type="text" name="requester"/>
+		   	    <label for="requester" >Requester</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input" id="authorizer" type="text" name="authorizer"/>
+		   	    <label for="authorizer" >Authorizer</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input" id="dateNeeded" type="date" name="dateNeeded"/>
+		   	    <label for="dateNeeded" >Date Needed</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper checkbox-wrapper">
+	   	    <fieldset class="input" id="edits-work-type">
+	   	    	<legend class="label" id="legend">Work Type</legend>
+		   	    <div class="sliders">
+		   	    	<label for="copy" class="slider-label copy">Copy
+		   	   		 <div class="switch">		
+			   	    	<input type="checkbox" value="Copy" class="checkbox edits" id="edits-copy" name="edits-copy">
+						<div class="slider"></div>
+					</div>	
+				</label>
+				<label for="design" class="slider-label design">Design	
+					 <div class="switch">			
+			   	    	<input type="checkbox" value="design" class="checkbox edits" id="edits-design" name="edits-design">
+						<div class="slider"></div>
+					</div>
+				</label>
+				</div>
+				</fieldset>
+	   	    </div><br>
+
+	   	       <div class="input-wrapper">
+	   	    	
+		   	    <textarea class="input" id="describeEdits" name="describeEdits" rows="1" cols="70"></textarea>
+		   	    <label for="describeEdits" >Describe Edits</label>
+	   	    </div><br>
+
+	   	    <input class="submit" type="submit" value="Submit">
+
+	   	    </form>
+
+		</section>
+
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/labels.js"></script>
+
+	</body>
+</html>

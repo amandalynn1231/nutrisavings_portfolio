@@ -1,0 +1,247 @@
+
+<?php 
+if(isset($_POST['submit'])){
+    $to = "amandalynn1231@gmail.com"; // this is your Email address
+    $from = $_POST['info@nutrisavings.com']; // this is the sender's Email address
+    $name = $_POST['requester'];
+    $subject = "Request Form Submission";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " requested the following:" . "\n\n" . $_POST['message'];
+    // $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>marketing request form</title>
+
+		<!-- FAVICON <link rel="shortcut icon" href="img/paint-icon.jpg"> -->
+
+		<link rel="stylesheet" type="text/css" href="css/request.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+</head>
+
+<body>
+
+		<!-- LOGO -->
+		<!-- <div class="logo-box">
+			<img class="logo" src="images/NutriSavings_motif.png">
+			<h1>Marketing Request</h1>
+		</div> -->
+
+		<!-- <div class="list-title">Timeline Estimates:</div> -->
+	
+		<div class="list">
+			<h4 class="list-title">Timeline Estimates</h4>
+			<ul>
+				<li class="line-l"><p class="li-title">Copy</p> 5-10 business days</li>
+				<li><p class="li-title">Design</p> 5-10 business days</li>
+				<li class="line-r"><p class="li-title">Edits</p> 1-2 business days</li>
+			</ul>	
+		</div>
+
+		<div class="options">
+			<div class="new-request">
+				<h3 class="option new">New Request</h3>
+			</div>
+			<div class="edits">
+				<h3 class="option edit">Request Edits</h3>
+			</div>
+		</div>
+
+	<!-- 	<div id="new-request-form"></div>
+		<div id="edits-request-form"></div> -->
+
+		<section id="new-request-form">
+
+		<h2 class="form-title">New Marketing Request</h2>
+
+		<form class="form content" name="new-request" method="post" action="contact.php">
+
+			<div class="input-wrapper">
+		   	    <input class="input projectName" type="text" name="projectName"/>
+		   	    <label for="project-name" >Project Name</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input requester" type="text" name="requester"/>
+		   	    <label for="requester">Requester</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input authorizer" type="text" name="authorizer"/>
+		   	    <label for="authorizer">Authorizer</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input dateNeeded" type="date" name="dateNeeded"/>
+		   	    <label for="dateNeeded">Date Needed</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper checkbox-wrapper">
+	   	    <fieldset class="input" id="new-work-type">
+	   	    	<legend class="label legend">Work Type</legend>
+		   	    <div class="sliders">
+		   	    	<label for="copy" class="slider-label copy">Copy
+		   	   		 <div class="switch">		
+			   	    	<input type="checkbox" value="Copy" class="checkbox" id="copy" name="copy">
+						<div class="slider"></div>
+					</div>	
+				</label>
+				<label for="design" class="slider-label design">Design	
+					 <div class="switch">			
+			   	    	<input type="checkbox" value="design" class="checkbox" id="design" name="design">
+						<div class="slider"></div>
+					</div>
+				</label>
+				</div>
+				</fieldset>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+	   	    	
+		   	    <textarea class="input" id="projectOverview" name="projectOverview" rows="1" cols="70"></textarea>
+		   	    <label for="projectOverview" >Project Overview</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <textarea class="input" id="objective" name="objective" rows="1" cols="70"></textarea>
+		   	    <label for="objective" >Objective</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <textarea class="input" id="primaryMessage" name="primaryMessage" rows="1" cols="70"></textarea>
+		   	    <label for="primaryMessage" >Primary Message</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <textarea class="input" id="secondaryMessage" name="secondaryMessage" rows="1" cols="70"></textarea>
+		   	    <label for="secondaryMessage" >Secondary Message</label>
+	   	    </div><br>
+
+	   	     <div class="input-wrapper">
+		   	    <input class="input" id="targetAudience" type="text" name="authorizer"/>
+		   	    <label for="targetAudience" >Target Audience</label>
+	   	    </div><br>
+
+	   	      <div class="input-wrapper">
+		   	    <textarea class="input" id="tone" name="tone" rows="1" cols="70"></textarea>
+		   	    <label for="tone" >What is the tone?</label>
+	   	    </div><br>
+
+	   	    <h3 class="subheader">Additional Considerations</h3>
+
+	   	      <div class="input-wrapper">
+		   	    <textarea class="input" id="visuals" name="visuals" rows="1" cols="70"></textarea>
+		   	    <label for="visuals" >What visuals are important for design?</label>
+	   	    </div><br>
+
+	   	      <div class="input-wrapper">
+		   	    <textarea class="input" id="referenceMaterials" name="referenceMaterials" rows="1" cols="70"></textarea>
+		   	    <label for="referenceMaterials" >Are there existing materials we can use for reference?</label>
+	   	    </div><br>
+
+			<h3 class="subheader">Other Important Details?</h3>
+
+		   	<div class="input-wrapper">
+		   	    <textarea class="input" id="otherDetails" name="otherDetails" rows="1" cols="70"></textarea>
+	   	    </div><br>
+
+			<input class="submit" type="submit" value="Submit">
+		</form>
+
+		</section>
+
+		<section id="edits-request-form">
+			<h2 class="form-title">Edits Request</h2>
+
+		<form class="form content" name="edits-request" method="post" action="contact.php">
+
+			<div class="input-wrapper">
+		   	    <input class="input projectName" type="text" name="projectName2"/>
+		   	    <label>Project Name</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input requester" type="text" name="requester"/>
+		   	    <label>Requester</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input authorizer" type="text" name="authorizer"/>
+		   	    <label>Authorizer</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper">
+		   	    <input class="input dateNeeded" type="date" name="dateNeeded"/>
+		   	    <label>Date Needed</label>
+	   	    </div><br>
+
+	   	    <div class="input-wrapper checkbox-wrapper">
+	   	    <fieldset class="input" id="edits-work-type">
+	   	    	<legend class="label" id="legend">Work Type</legend>
+		   	    <div class="sliders">
+		   	    	<label for="edits-copy" class="slider-label copy">Copy
+		   	   		 <div class="switch">		
+			   	    	<input type="checkbox" value="Copy-edits" class="checkbox edits" id="edits-copy" name="edits-copy">
+						<div class="slider"></div>
+					</div>	
+				</label>
+				<label for="edits-design" class="slider-label design">Design	
+					 <div class="switch">			
+			   	    	<input type="checkbox" value="design-edits" class="checkbox edits" id="edits-design" name="edits-design">
+						<div class="slider"></div>
+					</div>
+				</label>
+				</div>
+				</fieldset>
+	   	    </div><br>
+
+	   	       <div class="input-wrapper">
+	   	    	
+		   	    <textarea class="input describeEdits" name="describeEdits" rows="1" cols="70"></textarea>
+		   	    <label for="describeEdits" >Describe Edits</label>
+	   	    </div><br>
+
+	   	    <input class="submit" name="submit2" type="submit" value="Submit">
+
+	   	    </form>
+
+		</section>
+
+		<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+		<script type="text/javascript" src="js/labels.js"></script>
+
+
+
+<!-- 
+<script type="text/javascript">
+	
+$(function(){
+	$('.input').blur(function(){
+		$(this).on('focus', function() {
+			$(this).child.addClass('filled');
+		});
+
+		if($(this).val() != '') $(this).child('.label').addClass('filled');
+	});
+});
+
+</script>
+ -->
+</body>
+
+</html>
